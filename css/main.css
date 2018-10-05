@@ -1,0 +1,69 @@
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.addDiv {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.addDiv input {
+	padding: .3rem;
+}
+
+.productDiv {
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.productBox {
+	cursor: pointer;
+	width: 20%;
+	margin: 1rem;
+	background-color: lightgrey;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.productImg {
+	width: 50%;
+}
+
+.deleteBtn {
+	margin-bottom: 1rem;
+}
+
+.editDiv {
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.editBox {
+	background-color: lightgrey;
+	border: 1px solid black;
+	text-align: center;
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.editBox input {
+	padding: .3rem;
+}
+
+.editBoxImg {
+	width: 50%;
+}
